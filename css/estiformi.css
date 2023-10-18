@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(229, 190, 190);
+}
+
+form {
+  text-align: center;
+}
+#calcu {
+  color: rgb(240, 255, 240);
+  background-color: black;
+}
+#imagen {
+  width: 100px;
+  height: 100px;
+}
+input {
+  background-color: rgba(236, 145, 210, 0.789);
+}
+option {
+  background-color: rgba(236, 145, 210, 0.789);
+}
+select {
+  background-color: rgba(236, 145, 210, 0.789);
+}
+button {
+  background-color: rgba(203, 122, 180, 0.734);
+}

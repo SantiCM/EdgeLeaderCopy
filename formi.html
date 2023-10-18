@@ -1,0 +1,62 @@
+
+<html>
+	<head></head>
+	
+    <link rel="stylesheet" href="./css/estiformi.css">
+	
+	<body>
+
+		<form>
+				
+			<p> 
+				<b>Calculadora de IMC</b>
+				<br/><br/>
+			</p>
+			
+			Pon tu peso:
+			<input id="peso" type="number" />
+			<br/><br/>
+			Pon tu estatura en metros:
+			<input id="estatura" type="number" />
+			<br/><br/>Selecciona tu genero:<br>
+            <button>
+                <img id="imagen"src="mujer.png" alt="MUJER">
+            <input type="radio" name="sexo" id="sexo" value="1">M
+        </button>
+        <button>
+            <img id="imagen"src="inhabilitar.png" alt="MUJER">
+            <input type="radio" name="sexo" id="sexo" value="2">H
+
+        </button>
+
+          
+            <br/><br/>Selecciona tu edad:
+            
+            <select name="sexo" id="edad" required>
+                <option value=""></option>
+                <option value="1">10</option>
+                <option value="2">11</option>
+                <option value="3">12</option>
+                <option value="4">13</option>
+                <option value="5">14</option>
+                <option value="6">15</option>
+                <option value="7">16</option>
+                <option value="8">17</option>
+                <option value="9">18</option>
+                <option value="10">19</option>
+                <option value="11">20 o más</option>
+            </select>
+            <br/><br/>
+					
+			<input id="calcu" type="button"  value="Calcular" onclick="calcula_resta()" /><br/>
+
+		</form>
+		
+		<div id= "resultado">
+			<!-- "EL RESULTADO DE LA RESTA ES + resultado() !-->
+		</div>
+
+	</body>
+
+    <script type="text/javascript" src="calculos.js"></script> 
+</html>
